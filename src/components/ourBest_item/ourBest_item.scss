@@ -1,0 +1,24 @@
+.ourBest_item{
+    width: 220px;
+    height: 240px;
+    background-color:rgb(255, 255, 255, 0.65);
+    border-radius: 12px;
+    margin: 35px;
+padding: 22px 20px 26px 20px;}
+.ourBest_item_title {
+    font-family: 'Merienda';
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+.ourBest_item_prise {
+    font-family: 'Merienda';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+}
+.ourBest_item_img {
+    width: 150px;
+    max-height: 130px;
+}

@@ -1,0 +1,45 @@
+.img_black{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    &::after {
+        content: '';
+        width: 60px;
+        display: block;
+        height: 1px;
+        background: rgb(0, 0, 0);
+        position: absolute;
+        top: 15px;
+        left: 60px;
+    };
+    &::before {
+        content: '';
+        width: 60px;
+        display: block;
+        height: 1px;
+        background: rgb(0, 0, 0);
+        position: absolute;
+        top: 15px;
+        left: -90px;
+    };
+}
+
+.about {
+    min-height: 520px;
+    margin: 0px 400px 0px 400px;
+
+}
+
+.container_about {
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.text{
+    text-align: center;
+    margin-top: 20px;
+}
